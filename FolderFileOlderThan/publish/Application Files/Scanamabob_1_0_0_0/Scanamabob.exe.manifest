@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.0" name="Scanamabob.exe" publicKeyToken="37c505ed0b598a78" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="RecursiveFileChanger.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Scanamabob" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Scanamabob.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Scanamabob.exe" size="39936">
+      <assemblyIdentity name="Scanamabob" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>h7+OqjNRZZjHK7S48bFgP54Xqv0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RecursiveFileChanger.ico" size="17542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>U72VI4SwLMtTmVRbEnsIRPCXPrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scanamabob.exe.config" size="2036">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MK7w8PHXbWU7h6X4McUCFS4DROo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ECREATIVE\jessed" issuerKeyHash="c0840ad3a986fa2002133de84a23eef12b3df42a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CwLkpvA1O+1GuRRKOQLN5W+UzjQ=</DigestValue></Reference></SignedInfo><SignatureValue>xCazX6Cf14tCVmky+zome5xaICybwCCsvVv9qsAbqSXXok9+EBKxwWVnUW2WjyvYXMXmuBtZKQI0B0aGtsk+hjm62VqLBTNhlpsYeV77wFSLPPfO/FbHz44Nd14pqzjiRBJ4yaOWyrnSgfENW7Enf7ZkDedyON6oQVAFjgyhjGI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yuawoI6BxXFdc7V+Og5vnL73fxw9o1HoKaFqPVcEY5mRcNnshC1ij5wGsEUd/Iw8+HSJARn7Sg/ev/xBFzO2KOGotub7exyZ/sv5HlSV0GKAAWSMRWFs76i7MqK3tKifqqGoW2/ywMiwaJ3l2EFYrF3ixi0m/h7ITCnO5ryUjJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="34ce946fe5cd02394a14b946ed3b35f0a6e4020b" Description="" Url=""><as:assemblyIdentity version="1.0.0.0" name="Scanamabob.exe" publicKeyToken="37c505ed0b598a78" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ECREATIVE\jessed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+4TYvU3Wv62fWC6tovD02o0/ogk=</DigestValue></Reference></SignedInfo><SignatureValue>swsD9vMC12G7QXPhdJfyOS5QffZblcNZwLsu84woZ5bInzZX5jMHaEa19ChSGQmhQlgD8jDDj96l5ogNCYdWYoCu/TG01xO/34rrT5/bDoxsw7EKibnlU+6DN6uKFhA/WyQRuuAwfOqv0luHEtInebVWS7OnwAUw4ggLU1V70/c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yuawoI6BxXFdc7V+Og5vnL73fxw9o1HoKaFqPVcEY5mRcNnshC1ij5wGsEUd/Iw8+HSJARn7Sg/ev/xBFzO2KOGotub7exyZ/sv5HlSV0GKAAWSMRWFs76i7MqK3tKifqqGoW2/ywMiwaJ3l2EFYrF3ixi0m/h7ITCnO5ryUjJ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQBhNJ0GlBa6ZCYhim1tvsnDAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABFAEMAUgBFAEEAVABJAFYARQBcAGoAZQBzAHMAZQBkMB4XDTA5MDIxOTE1MzgxMFoXDTEwMDIxOTIxMzgxMFowKzEpMCcGA1UEAx4gAEUAQwBSAEUAQQBUAEkAVgBFAFwAagBlAHMAcwBlAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMrmsKCOgcVxXXO1fjoOb5y+938cPaNR6Cmhaj1XBGOZkXDZ7IQtYo+cBrBFHfyMPPh0iQEZ+0oP3r/8QRcztijhqLbm+3scmf7L+R5UldBigAFkjEVhbO+ouzKit7Son6qhqFtv8sDIsGid5dhBWKxd4sYtJv4eyEwpzua8lIydAgMBAAEwCQYFKw4DAh0FAAOBgQCbQVR2YG/SvhP/fOXuac6HO1avNx9wByxeD3QTzkuv7Qd8qiJ6TKPRJltZfBpOjB7F828XfVJEdZaW3Y3OKb2MwAPl4MR0qDj8zQU1fw9NI7qq5+aqJHpvw9loh0ZSDpVEX6e0WsFWbOwJd/LQyYkPXgwAxKMAuxE2EP6k+e1Brg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
